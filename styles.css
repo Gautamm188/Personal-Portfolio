@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'poppins',sans-serif;
+}
+nav ul{
+    display:flex;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 80px;
+    background-color: rgb(60, 60, 60);
+}
+nav ul li{
+    list-style: none;
+    margin:0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: grey;
+    font-size: 1.02 rem;
+}
+main hr {
+    border: 0;
+    background: grey;
+    height: 1.5px;
+    margin: 40px 84px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:80px 0px;
+    margin: 130px 0;
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftsection {
+    font-size: 2.3rem;
+}
+.rightsection img {
+    width: 80%;
+}
+.col{
+    color: rgb(126, 126, 126);
+}
+.text-grey {
+    color: grey;
+}
+#element{
+    color: rgb(126, 126, 126);
+}
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 25vh;
+}
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+.secondSection .intern {    
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+}
+
+
+.thirdSection {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.vertical-line {
+    border-left: 1.5px solid grey;
+    height: 600px;
+    position: relative;
+    left: 50%;
+    margin-left: -3px;
+    margin-top: 30px;
+    top: 0;
+}
+
+.left-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-section h1 {
+    margin-left: 120px;
+}
+
+.right-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-section h1 {
+    margin-left: 40px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 20px; /* Adjust the gap between circles */
+    justify-content: center; /* Center the grid horizontally */
+    align-content: center; /* Center the grid vertically */
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the grid container */
+}
+
+
+.circle {
+    margin-left: 70px;
+    margin-top: 6vh;
+    width: 100px; /* Adjust the width and height for the circle */
+    height: 100px;
+    border-radius: 50%; /* Create a circular shape */
+    background-color: white; /* Background color of the circle */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    overflow: hidden; /* Hide any content that goes beyond the circle */
+    background-size: cover; /* Ensure the background image covers the circle */
+    background-position: center; /* Center the background image */
+}
+
+.circle-1 {
+    background-image: url('figma.png'); /* Replace with your image URL */
+    background-size: contain; /* Adjust the background size as needed */
+    background-size: 50%;
+    background-repeat: no-repeat; /* Prevent image repetition */
+}
+
+.circle-2 {
+    background-image: url('cpp.png'); /* Replace with your image URL */
+    background-size: contain; /* Adjust the background size as needed */
+    background-size: 90%;
+    background-repeat: no-repeat; /* Prevent image repetition */
+}
+
+.circle-3 {
+    background-image: url('ml.png'); /* Replace with your image URL */
+    background-size: contain; /* Adjust the background size as needed */
+    background-size: 70%;
+    background-repeat: no-repeat; /* Prevent image repetition */
+}
+
+.circle-4 {
+    background-image: url('python.png'); /* Replace with your image URL */
+    background-size: contain; /* Adjust the background size as needed */
+    background-size: 70%;
+    background-repeat: no-repeat; /* Prevent image repetition */
+}
+
+.circle-5 {
+    background-image: url('js.png'); /* Replace with your image URL */
+    background-size: contain; /* Adjust the background size as needed */
+    background-color: #fde04c;
+    background-size: 80%;
+    background-repeat: no-repeat; /* Prevent image repetition */
+}
+
+.circle-6 {
+    background-image: url('css.webp'); /* Replace with your image URL */
+    background-size: contain; /* Adjust the background size as needed */
+    background-size: 70%;
+    background-position-x: bottom;
+    background-repeat: no-repeat; /* Prevent image repetition */
+}
+
+.circle-7 {
+    background-image: url('now.png'); /* Replace with your image URL */
+    background-size: contain; /* Adjust the background size as needed */
+    background-size: 100%;
+    background-repeat: no-repeat; /* Prevent image repetition */
+}
+
+.circle-8 {
+    background-image: url('mysql.png'); /* Replace with your image URL */
+    background-size: contain; /* Adjust the background size as needed */
+    background-size: 110%;
+    background-repeat: no-repeat; /* Prevent image repetition */
+}
+
+.circle-9 {
+    background-image: url('c.png'); /* Replace with your image URL */
+    background-size: contain; /* Adjust the background size as needed */
+    background-size: 70%;
+    background-repeat: no-repeat; /* Prevent image repetition */
+}
+
+/* Add this CSS to your existing stylesheet */
+
+.project {
+    margin-top: 40px;
+    margin-bottom: 40px; /* Adjust spacing between projects */
+    margin-left: 40px;
+}
+  
+.project h2 {
+    font-size: 1.3rem; /* Match the font size of the work experience section */
+    color: #FFF; /* Match the text color of the work experience section */
+    font-family: 'Inter', sans-serif; /* Match the font family of the work experience section */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.project p {
+    font-size: 0.8rem; /* Match the font size of the work experience section */
+    color: grey; /* Match the text color of the work experience section */
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+  
+.project ul {
+    padding-left: 25px; /* Adjust the indentation of bullet points */
+}  
+
+
+
+/* Updated CSS for Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the start of the cross-axis */
+    padding: 30px;
+    background-color: rgb(60, 60, 60);
+  }
+  
+  .contact-form {
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 50%;
+  }
+  
+  .footer-social {
+    margin-top: 20px;
+    width: 45%;
+    display: flex;
+    flex-direction: column; /* Display items in a column */
+    align-items:flex-start; 
+  }
+  
+  .footer-social a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 8px; /* Adjust the spacing between social links */
+  }
+  
+  .footer-social a:hover {
+    text-decoration: underline;
+  }  

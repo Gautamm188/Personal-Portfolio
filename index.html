@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gautam-portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left"> Gautam's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/"> Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">My Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi my name is <span class="col">Gautam</span>
+        <div>I am a passsionate</div>
+        <!-- <div>Web Devloper</div> -->
+        <span id="element"></span>
+      </div>
+      <div class="rightsection">
+        <img src="bg.png" alt="">
+      </div>
+    </section>
+    <hr>
+
+    <section class="secondSection">
+      <h1>Work Experiences</h1><br>
+      <div class="intern"><b>Birlasoft</b> | Intern</div>
+      <span class="text-grey">
+        - Worked on ServiceNow<b> Service Portal.</b><br>
+        - Contributed significantly to various projects, resulting in<b> substantial</b> organizational impact<br>
+      </span>
+    </section>
+    <hr>
+
+    <section class="thirdSection">
+      <div class="vertical-line"></div>
+      <div class="left-section">
+        <h1>Skills</h1>
+        <ul>
+          <div class="skills-container">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+
+            <div class="circle circle-4"></div>
+            <div class="circle circle-5"></div>
+            <div class="circle circle-6"></div>
+
+            <div class="circle circle-7"></div>
+            <div class="circle circle-8"></div>
+            <div class="circle circle-9"></div>
+        </div>
+        </ul>
+      </div>
+      <div class="right-section">
+        <h1>Projects</h1>
+      <!-- Updated Project Section in HTML -->
+      <div class="project">
+        <h2>BlindVision</h2>
+        <p>
+          Real-time Object Identification for Visually Impaired
+          <br />
+          - Developed a camera-equipped stick utilizing YOLO v8 object detection to verbalize and aid real-time object identification for the visually impaired.
+          <br />
+          - Enhanced independence and safety for the visually impaired community by providing innovative assistive technology.
+        </p>
+      </div>
+      <div class="project">
+        <h2>Sentimental Analysis Using Facial Recognition</h2>
+        <p>
+          AI-powered Facial Sentiment Analysis for Personalized Content Recommendations
+          <br />
+          - Developed an AI-based web app for sentiment analysis using facial recognition to accurately detect emotions.
+          <br />
+          - Employed machine learning algorithms to provide personalized media content recommendations based on emotions.
+        </p>
+      </div>
+      <div class="project">
+        <h2>Acom</h2>
+        <p>
+          Intuitive Home Accommodation-Finding Application with Enhanced UI/UX Design
+          <br />
+          - Developed an intuitive home accommodation-finding application with a strong emphasis on UI/UX design, providing users with a seamless and pleasant experience.
+          <br />
+          - Enabled users to effortlessly search for accommodations near specific locations, such as colleges or companies, by accessing comprehensive online listings for a wide range of housing options.
+        </p>
+      </div>
+      </div>
+    </section>
+
+    <!-- Add this HTML for the footer with a contact form -->
+    <!-- Updated HTML -->
+    <footer>
+      <div class="contact-form">
+        <h2>Contact Me</h2><br>
+        <form action="mailto:gautammalhotra188@gmail.com" method="post" enctype="text/plain">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br>
+
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" required></textarea><br>
+
+          <input type="submit" value="Send Message">
+        </form>
+      </div>
+
+      <!-- Add text links for social media -->
+      <div class="footer-social">
+        <h2>Socials</h2><br><br>
+        <a href="https://www.linkedin.com/your-profile" target="_blank">LinkedIn</a><br>
+        <a href="https://github.com/your-username" target="_blank">GitHub</a><br>
+        <a href="https://twitter.com/your-handle" target="_blank">Twitter</a>
+      </div>
+    </footer>
+
+    
+
+
+
+  </main>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['UI UX Designer', 'Web Developer', 'ML Engineer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
